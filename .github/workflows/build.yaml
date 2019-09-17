@@ -1,0 +1,10 @@
+name: Build
+on: [push]
+
+jobs:
+  build:
+    name: Build2
+    runs-on: ubuntu-latest
+    steps:
+      - name: Build3
+        uses: larsbrinkhoff/lbForth/.github/actions/build
